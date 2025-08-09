@@ -1,96 +1,96 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [COLOR_LOT :Colors.Cars.Chaos] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [_ZECO_]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Mrudhula Mohan] - [NSS COLLEGE OF ENGINEERING,PALAKKAD]
+- Member 2: [Jinsha Mol C T] - [NSS COLLEGE OF ENGINEERING,PALAKKAD]
+
 
 ### Project Description
-[2-3 lines about what your project does]
+[COLOR_LOT is a fun and functional app that uses ai to detect car colors in parking areas,resolve color disputes between friends,and even predit each car's horoscope and mood.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[Finally,an app that settles life's most heated debates-like whether that car is teal or blue-while also revealing if your car is secretly a moody Sagittarius that just wants a nap.]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[Armed with ai,questionable life choices,and way too much free time,color_lot scans your parking lot through a photo,counts car colors,assigns them ridiculous horoscopes,guesses their mood,and delivers verdicts with enough sass to end(or start)a friendship.]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [Languages used:HTML5,CSS,JavaScript,JSON,Node.js]
+- [Frameworks used:Firebase Studio,Firebase Firestore,Firebase Storage,Firebase Hosting,Firebase Authentication,Firebase Cloud Functions]
+- [Libraries used:utils.ts,Firebase JavaScript SDK,Color-thief,Howler.js]
+- [Tools used:Github,Git,VS Code,Firebase Studio,Firebase Firestore,Firebase Storage,Firebase Hosting]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+[npm install]
 
 # Run
-[commands]
+[npm run dev]
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](https://drive.google.com/file/d/1Xe0ofZ4rwVlsAxTmz60je36_sqLeK5Ix/view?usp=sharing Beginning stage of project)
+*This is the beginning stage which shows basic features of desired output.*
+![Screenshot2](https://drive.google.com/file/d/1qAQaC4DeU8eI0AibPxHzqd4TKYT65s9q/view?usp=sharing Intermediate stage of project)
+*This has only two features color detection and dispute buster.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](https://drive.google.com/file/d/1kBng7y0wWKhlb7GFi07b5WHVDHLnxqkg/view?usp=sharing Finalised project)
+*A fully functional app with all desired features*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![Workflow]([User Device: Upload Photo]
+            ↓
+[FIREBASE HOSTING: Frontend UI]
+            ↓
+    [Firebase Storage]
+            ↓
+[FIREBASE CLOUD FUNCTIONS: AI Processing]
+            ↓
+      [Firestore Database]
+            ↓
+[FIREBASE HOSTING: Frontend UI - Display Results]
+            ↑
+            |
+         [User Device])
+         
+*1.User uploads photo via the app frontend served by Firebase Hosting.
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+2. The uploaded photo is saved in Firebase Storage.
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+3. Storage triggers Cloud Functions that run AI detection and logic.
 
-![Build](Add photos of build process here)
-*Explain the build steps*
 
-![Final](Add photo of final product here)
-*Explain the final build*
+4. Results (color counts, disputes, horoscopes) are saved in Firestore.
+
+
+5. Firestore sends real-time updates to the frontend.
+
+
+6. User sees results in the app UI.*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+[https://drive.google.com/file/d/1iW3mERXQDzSQZlrH2woEufVaE5stNIcs/view?usp=sharing]
+*The demonstration and explanation is given in the video.*
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Mrudhula Mohan]: [Idea and implementation of basic features of the project.]
+- [Jinsha Mol C T]: [Improvised features and implementation of project.]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
