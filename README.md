@@ -15,6 +15,7 @@
 
 ### Project Description
 [COLOR_LOT is a fun and functional app that uses ai to detect car colors in parking areas,resolve color disputes between friends,and even predit each car's horoscope and mood.]
+Working model: color-lot.vercel.app
 
 ### The Problem (that doesn't exist)
 [Finally,an app that settles life's most heated debates-like whether that car is teal or blue-while also revealing if your car is secretly a moody Sagittarius that just wants a nap.]
